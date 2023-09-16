@@ -1,6 +1,6 @@
 ﻿string name = "Ewa";
 string plec = "kobieta";
-var wiek = 33;
+int wiek = 33;
 
 
 
