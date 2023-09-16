@@ -1,16 +1,23 @@
-﻿string name = "Ewa";
-string plec = "kobieta";
-int wiek = 33;
+﻿
+
+    
+        string name = "Paweł";
+        string gender = "kobieta";
+        int age = 19;
 
 
 
-if (name == "Ewa" && wiek == 33) 
-{
-    Console.WriteLine("Nazywasz się Ewa i masz 33 lata");
-}
+        if (name == "Paweł" && age >= 18)
+        {
+            Console.WriteLine("Możesz kupić piwo");
+        }
 
-else 
-{
-    Console.WriteLine("Nie nazywasz się Ewa i nie masz 33 lat");
-}
- 
+        else if (gender != "kobieta" || age >= 18)
+        {
+            Console.WriteLine("Niepełnoletni mężczyzna");
+        }
+        else
+        {
+            Console.WriteLine("nie możesz kupić piwa");
+        }
+    
